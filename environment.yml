@@ -1,7 +1,7 @@
 # To use:
-  # $ conda env create -f env_cv.yml
+  # $ conda env create -f environment.yml
   # $ conda activate cv
-name: basic
+name: ContinuousBlackjack
 dependencies:
   - python
   - pip
