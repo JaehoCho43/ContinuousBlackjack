@@ -1,16 +1,12 @@
 # To use:
   # $ conda env create -f environment.yml
-  # $ conda activate cv
-name: ContinuousBlackjack
+  # $ conda activate continuous-blackjack
+name: continuous-blackjack
+channels:
+  - conda-forge
 dependencies:
-  - python
+  - python>=3.11
   - pip
   - pip:
-    - ipykernel
-    - numpy
-    - pandas
-    - torch
-    - seaborn
-    - matplotlib
-    - scipy
-    - cython
+    - -e .
+    - jupyterlab>=4
